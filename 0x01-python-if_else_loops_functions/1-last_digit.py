@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-reminder = abs(number % 10)
+reminder = abs(number) % 10
 if number < 0:
     reminder = -reminder
-output = ''
 if reminder == 0:
     output = "0"
 elif reminder > 5:
