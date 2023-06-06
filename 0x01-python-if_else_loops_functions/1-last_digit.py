@@ -11,4 +11,4 @@ elif reminder > 5:
     output = "greater than 5"
 else:
     output = "less than 6 and not 0"
-print(f"Last digit of {number} is {reminder} and is {output}", end="")
+print(f"Last digit of {number} is {reminder} and is {output}")
