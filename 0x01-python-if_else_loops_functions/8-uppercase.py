@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def isupper(str):
+def uppercase(str):
     for character in str:
         if ord('a') <= ord(character) <= ord('z'):
             character = chr(ord(character) - 32)
